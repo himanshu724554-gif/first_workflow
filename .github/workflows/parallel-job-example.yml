@@ -12,8 +12,8 @@ on:
       - main
 
   # Temporarily enable this for the demo
-  schedule:
-    - cron: '0 5 * * 1-5'
+  #schedule:
+  #  - cron: '0 5 * * 1-5'
 
 jobs:
   build-and-test-1:
